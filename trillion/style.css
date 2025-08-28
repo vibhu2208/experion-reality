@@ -20,7 +20,7 @@
   .masterplan-section .section-divider {
     height: 4px;
     width: 80px;
-    background: linear-gradient(90deg, #72B139, #0D1B3E);
+    background: linear-gradient(90deg, #2b6cb0, #1a365d);
     border-radius: 2px;
     margin: 1rem auto;
   }
@@ -42,7 +42,7 @@
     transition: all 0.3s ease;
     position: relative;
     cursor: pointer;
-    background: #fff;
+    background: #f0f7ff;
   }
   
   .masterplan-img {
@@ -92,7 +92,7 @@
   
   .btn-expand:hover {
     transform: translateY(-2px);
-    background: #fff;
+    background: #f0f7ff;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
   }
   
@@ -170,10 +170,10 @@
   .footer-title { color: #fff; font-weight: 800; font-size: clamp(20px, 3.2vw, 28px); margin: 6px 0 10px; }
   .footer-text { color: #b9cbe0; line-height: 1.7; }
   .footer-meta { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 8px; }
-  .footer-meta i { color: #72B139; margin-right: 8px; }
+  .footer-meta i { color: #2b6cb0; margin-right: 8px; }
   
   .footer-form {
-    background: rgba(255,255,255,0.06);
+    background: rgba(43, 108, 176, 0.36);
     border: 1px solid rgba(255,255,255,0.12);
     border-radius: 14px;
     padding: clamp(14px, 2.4vw, 20px);
@@ -194,18 +194,26 @@
     transition: border-color .2s ease, box-shadow .2s ease, background-color .2s ease;
   }
   .ff-group input::placeholder { color: #a8bed8; }
-  .ff-group input:focus { border-color: #72B139; box-shadow: 0 0 0 3px rgba(114,177,57,0.25); background: #112943; }
+  .ff-group input:focus { border-color: #2b6cb0; box-shadow: 0 0 0 3px rgba(114,177,57,0.25); background: #2b6cb0; }
   .ff-group input.is-invalid { border-color: #ff6b6b; box-shadow: 0 0 0 3px rgba(255,107,107,0.20); }
   
   .ff-actions { display: flex; align-items: center; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
   .ff-btn {
     display: inline-flex; align-items: center; gap: 10px;
-    background: #72B139; color: #0c1b2a; font-weight: 800;
-    padding: 12px 16px; border-radius: 999px; border: none; cursor: pointer;
+    background: #2b6cb0;
+    color: #0c1b2a;
+    font-weight: 800;
+    padding: 12px 16px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
     box-shadow: 0 10px 24px rgba(114,177,57,0.28);
     transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
   }
   .ff-btn:hover { transform: translateY(-1px); box-shadow: 0 16px 30px rgba(114,177,57,0.36); }
+  .ff-btn:active { transform: translateY(0); }
+  .ff-btn:focus { outline: none; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.25), 0 12px 28px rgba(20, 184, 166, 0.30); }
+  
   .ff-consent { color: #a8bed8; }
   
   .footer-bottom { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.12); margin-top: clamp(20px, 4vw, 28px); padding-top: 16px; }
@@ -298,8 +306,8 @@
     }
     :root {
       /* Brand green palette */
-      --primary: #6BB841; /* brand green */
-      --primary-100: #ECF6E7; /* pale green */
+      --primary: #1a365d; /* dark blue */
+      --primary-100: #e2e8f0; /* light blue gray */
       --on-primary: #ffffff;
       /* RGBA helpers for overlays/shadows */
       --primary-a-22: rgba(107, 184, 65, 0.22);
@@ -408,24 +416,24 @@
   
     /* Call button (desktop and mobile) */
     .call-btn {
-      --grad-a: #10b981; /* emerald */
-      --grad-b: #14b8a6; /* teal */
+      --grad-a: #2b6cb0; /* blue */
+      --grad-b: #4299e1; /* light blue */
       display: inline-flex;
       align-items: center;
       gap: 10px;
       padding: 10px 16px;
       border-radius: 999px;
-      background: linear-gradient(135deg, var(--grad-a), var(--grad-b));
+      background: linear-gradient(135deg, #2b6cb0, #4299e1);
       color: #fff;
       font-weight: 800;
       text-decoration: none;
-      box-shadow: 0 10px 24px rgba(20, 184, 166, 0.28);
+      box-shadow: 0 10px 24px rgba(43, 108, 176, 0.28);
       transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
       border: 1px solid rgba(255,255,255,0.18);
     }
     .call-btn i { font-size: 0.95rem; }
     .call-btn .cb-text { font-size: 0.95rem; letter-spacing: .2px; }
-    .call-btn:hover { transform: translateY(-1px) scale(1.02); box-shadow: 0 16px 32px rgba(20, 184, 166, 0.36); filter: brightness(1.05); color: #fff; }
+    .call-btn:hover { transform: translateY(-1px) scale(1.02); box-shadow: 0 16px 32px rgba(43, 108, 176, 0.36); filter: brightness(1.05); color: #fff; }
     .call-btn:active { transform: translateY(0) scale(0.99); }
     .call-btn:focus { outline: none; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.25), 0 12px 28px rgba(20, 184, 166, 0.30); }
   
@@ -512,7 +520,7 @@
       transition: transform .2s ease, box-shadow .2s ease;
     }
     .qi-card:hover { transform: translateY(-2px); box-shadow: 0 18px 44px rgba(2,12,27,0.16); }
-    .qi-icon { color: #6BB841; display: grid; place-items: center; margin-bottom: 4px; }
+    .qi-icon { color: #2b6cb0; display: grid; place-items: center; margin-bottom: 4px; }
     .qi-icon i { font-size: clamp(18px, 2.6vw, 24px); }
   
     /* Subtle floating animation for Quick Info cards */
@@ -780,7 +788,7 @@
   
     /* About Section (luxury real estate style) */
     .about-section {
-      background: #fff;
+      background: #f0f7ff;
       color: #333;
       padding: 80px 20px; /* 80px top/bottom, 20px sides for safety */
     }
@@ -815,7 +823,7 @@
   
     /* Project Highlights */
     .highlights-section {
-      background: #fff;
+      background: #f0f7ff;
       padding: 60px 20px;
       width: 100%;
     }
@@ -831,7 +839,7 @@
       position: relative;
       height: 100%;
       overflow: hidden;
-      background: #fff; /* ensures gutter look */
+      background: #f0f7ff; /* ensures gutter look */
     }
     .highlight-slice img {
       width: 100%;
@@ -840,7 +848,7 @@
       display: block;
     }
     .highlights-text {
-      background: #fff;
+      background: #f0f7ff;
       padding: 12px 12px; /* reduced padding to pull text closer visually */
       display: flex;
       flex-direction: column;
@@ -1075,7 +1083,7 @@
   
     /* Gallery Section */
     .gallery-section {
-      background: #fff;
+      background: #f0f7ff;
       padding: 60px 0; /* top & bottom padding as requested */
     }
     .gallery-container {
@@ -1116,7 +1124,7 @@
       border: 1px solid #eee;
       border-radius: 8px;
       overflow: hidden;
-      background: #fff;
+      background: #f0f7ff;
       transition: border-color 0.2s ease, opacity 0.2s ease;
     }
     .gallery-thumbs .swiper-slide img {
@@ -1195,7 +1203,7 @@
   
     /* Pricing (Sizes and Price List) */
     .pricing-section {
-      background: linear-gradient(180deg, #f7f9fb 0%, #eef3f7 100%);
+      background: linear-gradient(180deg, #f0f5ff 0%, #e6f0ff 100%);
       padding: clamp(48px, 8vw, 80px) 0;
     }
     .pricing-title {
@@ -1209,7 +1217,7 @@
       display: inline-block;
       width: 120px;
       height: 4px;
-      background: linear-gradient(90deg, #6BB841, #37b56b);
+      background: linear-gradient(90deg, #2b6cb0, #3182ce);
       border-radius: 999px;
     }
     /* Table styles */
@@ -1221,7 +1229,7 @@
       box-shadow: 0 18px 48px rgba(2, 12, 27, 0.08);
     }
     .pricing-table thead th {
-      background: linear-gradient(180deg, #72B139 0%, #57a42b 100%);
+      background: linear-gradient(180deg, #2b6cb0 0%, #1a4b8c 100%);
       color: #fff;
       font-weight: 700;
       border: none;
@@ -1234,9 +1242,9 @@
       transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
     }
     .pricing-table tbody tr:nth-child(odd) { background: #ffffff; }
-    .pricing-table tbody tr:nth-child(even) { background: #f7fbf5; }
+    .pricing-table tbody tr:nth-child(even) { background: #f0f5ff; }
     .pricing-table tbody tr:hover {
-      background: #f1f8ed;
+      background: #ebf2ff;
       box-shadow: 0 6px 18px rgba(2,12,27,0.06);
       transform: translateY(-1px);
     }
@@ -1249,16 +1257,16 @@
     }
     .pricing-table tbody tr:last-child td { border-bottom: none; }
     .pricing-table tbody td:first-child a {
-      color: #2f7a3f; /* deeper green for text links */
+      color: #2c5282; /* deeper green for text links */
       font-weight: 800;
       text-decoration: none;
     }
-    .pricing-table tbody td:first-child a:hover { color: #256f39; text-decoration: underline; }
+    .pricing-table tbody td:first-child a:hover { color: #2a4365; text-decoration: underline; }
     
     /* Mobile cards */
     .pricing-cards { display: grid; gap: 16px; }
     .pricing-card {
-      background: #fff;
+      background: #f0f7ff;
       border-radius: 16px;
       border: 1px solid #e8eef5;
       box-shadow: 0 12px 28px rgba(2,12,27,0.06);
@@ -1266,12 +1274,12 @@
     }
     .pricing-card:hover { transform: translateY(-3px); box-shadow: 0 18px 36px rgba(2,12,27,0.10); }
     .pc-body { padding: 18px 16px; }
-    .pc-unit { color: #2f7a3f; font-weight: 800; font-size: 18px; margin-bottom: 6px; }
+    .pc-unit { color: #2c5282; font-weight: 800; font-size: 18px; margin-bottom: 6px; }
     .pc-size { color: #566074; font-weight: 600; margin-bottom: 6px; }
-    .pc-price { color: #128a4d; font-weight: 900; font-size: 18px; }
+    .pc-price { color: #2b6cb0; font-weight: 900; font-size: 18px; }
   
     /* Floor Plan Section */
-    .floor-section { position: relative; background: #f7f8fa; }
+    .floor-section { position: relative; background: #f0f5ff; }
     .floor-title {
       color: #002b6c;
       font-weight: 800;
@@ -1283,7 +1291,7 @@
     .floor-tabs { user-select: none; }
     .tab-btn {
       border: 1px solid #d0d5dd;
-      background: #fff;
+      background: #f0f7ff;
       color: #111827;
       padding: 8px 16px;
       border-radius: 999px;
@@ -1291,7 +1299,7 @@
       transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
     }
     .tab-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 16px rgba(0,0,0,0.08); }
-    .tab-btn.active { background: #111; color: #fff; border-color: #111; box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
+    .tab-btn.active { background: #111; color: #fff; border-color: #2b6cb0; box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
   
     /* Tabs fade behavior */
     .tab-panel { opacity: 0; transition: opacity 250ms ease; }
@@ -1461,7 +1469,7 @@
     }
   
     /* FAQ Section */
-    .faq-section { background: #f9f9f9; }
+    .faq-section { background: #f0f5ff; }
     .faq-title {
       font-family: "Playfair Display", serif;
       font-weight: 800;
@@ -1481,7 +1489,7 @@
       position: relative;
       transition: color 0.2s ease;
     }
-    .faq-q .q-prefix { color: #72B139; margin-right: 6px; }
+    .faq-q .q-prefix { color: #2b6cb0; margin-right: 6px; }
     .faq-q::after {
       content: "+";
       position: absolute;
@@ -1492,11 +1500,11 @@
       display: grid; place-items: center;
       border: 1px solid #cfe3c4;
       border-radius: 50%;
-      color: #72B139;
+      color: #2b6cb0;
       font-weight: 800;
     }
-    .faq-q[aria-expanded="true"] { color: #72B139; }
-    .faq-q[aria-expanded="true"]::after { content: "\2212"; /* minus */ background: #eaf5e4; }
+    .faq-q[aria-expanded="true"] { color: #2b6cb0; }
+    .faq-q[aria-expanded="true"]::after { content: "\2212"; /* minus */ background: #e1effe; }
   
     .faq-a {
       max-height: 0;
@@ -1510,7 +1518,7 @@
     .faq-side-image img { object-fit: cover; }
   
     /* About Section */
-    .about-section { background: #fff; }
+    .about-section { background: #f0f7ff; }
     .about-logo { width: 72px; height: auto; object-fit: contain; }
     .about-title {
       font-family: "Playfair Display", serif;
@@ -1521,7 +1529,7 @@
     }
     .about-sub {
       font-family: "Manrope", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color: #72B139;
+      color: #2b6cb0;
       font-weight: 700;
       letter-spacing: .2px;
     }
@@ -1556,7 +1564,7 @@
       display: inline-block;
       width: 120px;
       height: 3px;
-      background: #72B139;
+      background: #2b6cb0;
       border-radius: 2px;
     }
     .project_gallery .gallery-subtitle {
@@ -1717,7 +1725,7 @@
     /* =====================
        Location Advantages
        ===================== */
-    .locadv-section { background: #fff; padding: clamp(48px, 8vw, 80px) 0; position: relative; }
+    .locadv-section { background: #f0f7ff; padding: clamp(48px, 8vw, 80px) 0; position: relative; }
     .locadv-container { width: min(1200px, 92%); margin: 0 auto; }
     .locadv-header { max-width: 900px; margin: 0 auto clamp(20px, 3vw, 28px); }
     .locadv-title {
@@ -1930,7 +1938,7 @@
   display: block;
   height: 4px;
   width: 80px;
-  background: linear-gradient(90deg, #72B139, #0D1B3E);
+  background: linear-gradient(90deg, #2b6cb0, #1a365d);
   border-radius: 2px;
   margin: 1rem auto;
 }
@@ -1944,7 +1952,7 @@
 }
 
 .floor-plan-card {
-  background: #fff;
+  background: #f0f7ff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
@@ -1980,7 +1988,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(13, 27, 62, 0.8);
+  background: rgba(43, 108, 176, 0.28);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2003,7 +2011,7 @@
 }
 
 .plan-overlay .btn:hover {
-  background: #fff;
+  background: #f0f7ff;
   transform: scale(1.05);
 }
 
