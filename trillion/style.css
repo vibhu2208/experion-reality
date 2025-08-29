@@ -760,8 +760,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 50vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -1096,8 +1097,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -1172,8 +1174,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -1248,8 +1251,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -1606,8 +1610,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -1733,8 +1738,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -1976,8 +1982,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -2217,8 +2224,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
@@ -2406,8 +2414,9 @@
 @media (max-width: 991.98px) {
   /* Optimize hero height for mobile */
   .hero {
-    height: 70vh; /* Reduced from 100vh for better mobile experience */
-    min-height: 500px; /* Ensure minimum height */
+    height: 60vh; /* Further reduced to show more content below */
+    min-height: 400px; /* Reduced minimum height */
+    max-height: 600px; /* Added max-height to prevent it from being too tall */
   }
   
   /* Improve hero image positioning on mobile */
