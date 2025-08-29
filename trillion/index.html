@@ -23,6 +23,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <div id="page" class="page visible">
@@ -31,8 +32,9 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid px-5 d-flex align-items-center">
           <!-- Brand -->
-          <a class="navbar-brand d-flex align-items-center gap-2 order-1" href="../index.html">
-            <img src="../assets/images/global/sg-logo.jpg" alt="Logo" height="40">
+          <a class="navbar-brand d-flex align-items-center gap-2 order-1" href="#hero">
+            <img src="images/project-logo.webp" alt="Experion The Trillion" height="45" class="d-none d-lg-block">
+            <img src="images/project-logo.webp" alt="Experion The Trillion" height="35" class="d-lg-none">
           </a>
 
           <!-- Collapsible Nav (centered items) -->
@@ -426,6 +428,77 @@
       </div>
     </section>
 
+    <!-- Unit Size Section -->
+    <section id="unit-sizes" class="unit-sizes-section py-6">
+      <div class="container">
+        <div class="text-center mb-6">
+          <h2 class="section-title">Unit Sizes</h2>
+          <div class="section-divider mx-auto my-4"></div>
+          <p class="section-subtitle">Explore our thoughtfully designed living spaces</p>
+        </div>
+        
+        <div class="row g-5 justify-content-center">
+          <!-- 3BHK Type 4 -->
+          <div class="col-lg-5">
+            <div class="unit-card">
+              <h3 class="unit-type">3BHK TYPE 4</h3>
+              <div class="unit-divider"></div>
+              <div class="unit-details">
+                <div class="unit-spec">
+                  <span class="spec-label">RERA Unit Carpet Area</span>
+                  <div class="spec-value">
+                    <span class="sqft">1,535 SQ.FT</span>
+                    <span class="sqm">142.59 SQ.M</span>
+                  </div>
+                </div>
+                <div class="unit-spec">
+                  <span class="spec-label">Exclusive Balcony Area</span>
+                  <div class="spec-value">
+                    <span class="sqft">478 SQ.FT</span>
+                    <span class="sqm">44.43 SQ.M</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 4BHK Type 1 -->
+          <div class="col-lg-5">
+            <div class="unit-card">
+              <h3 class="unit-type">4BHK TYPE 1</h3>
+              <div class="unit-divider"></div>
+              <div class="unit-details">
+                <div class="unit-spec">
+                  <span class="spec-label">RERA Unit Carpet Area</span>
+                  <div class="spec-value">
+                    <span class="sqft">1,906 SQ.FT</span>
+                    <span class="sqm">177.06 SQ.M</span>
+                  </div>
+                </div>
+                <div class="unit-spec">
+                  <span class="spec-label">Exclusive Balcony Area</span>
+                  <div class="spec-value">
+                    <span class="sqft">540 SQ.FT</span>
+                    <span class="sqm">50.14 SQ.M</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floorplans Button -->
+        <div class="text-center mt-6">
+          <a href="#" class="btn-floorplan" data-toggle="floorplan-form" data-item-name="Floorplans">
+            <span>Get Floorplans</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- Master Plan Section -->
     <section id="master-plan" class="masterplan-section py-5">
       <div class="container">
@@ -475,6 +548,63 @@
         </div>
       </div>
     </div>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="downloads-section py-6">
+      <div class="container">
+        <div class="text-center mb-6">
+          <h2 class="section-title">Downloads</h2>
+          <div class="section-divider mx-auto my-4"></div>
+          <p class="section-subtitle">Access our collection of project resources</p>
+        </div>
+        
+        <div class="row g-4 justify-content-center">
+          <!-- Brochure -->
+          <div class="col-lg-5 col-md-6">
+            <div class="download-card">
+              <div class="download-content">
+                <h3 class="download-title">The Trillion Brochure</h3>
+                <p class="download-subtitle">Detailed project information and specifications</p>
+                <a href="#" class="download-link" data-toggle="floorplan-form" data-item-name="The Trillion Brochure">Download PDF (2.4 MB)</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Location Map -->
+          <div class="col-lg-5 col-md-6">
+            <div class="download-card">
+              <div class="download-content">
+                <h3 class="download-title">Location Map</h3>
+                <p class="download-subtitle">Strategic location and connectivity details</p>
+                <a href="#" class="download-link" data-toggle="floorplan-form" data-item-name="Location Map">View Map</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Site Plan -->
+          <div class="col-lg-5 col-md-6">
+            <div class="download-card">
+              <div class="download-content">
+                <h3 class="download-title">Site Plan</h3>
+                <p class="download-subtitle">Detailed layout and unit distribution</p>
+                <a href="#" class="download-link" data-toggle="floorplan-form" data-item-name="Site Plan">View Plan</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Location Video -->
+          <div class="col-lg-5 col-md-6">
+            <div class="download-card">
+              <div class="download-content">
+                <h3 class="download-title">Location Video</h3>
+                <p class="download-subtitle">Experience the neighborhood</p>
+                <a href="#" class="download-link" data-toggle="floorplan-form" data-item-name="Location Video">Watch Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- FAQs Section -->
     <section id="faq" class="faq-section py-5">
@@ -541,7 +671,7 @@
         <div class="row g-4 g-lg-5 align-items-start">
           <div class="col-12 col-lg-5 d-flex align-items-center h-100">
             <div class="about-brand">
-              <img src="images/experion-logo.webp" alt="Experion Logo" class="about-logo mb-3" />
+              <img src="images/project-logo.webp" alt="Experion The Trillion" class="about-logo mb-3" style="max-width: 250px; height: auto;" />
               <h2 class="about-title mb-2">About Experion Developers</h2>
               <p class="about-sub mb-0">Creating luxury living experiences</p>
             </div>
@@ -576,8 +706,32 @@
     </div>
   </div>
 
+  <!-- Floorplan Form Popup -->
+  <div id="floorplanFormModal" class="modal-form">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="form-container">
+        <h3>Get Floorplans & Downloads</h3>
+        <p class="form-subtitle">Please provide your details to access the files</p>
+        <form id="floorplanForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" required>
+            <label for="name">Full Name</label>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" required>
+            <label for="phone">Phone Number</label>
+          </div>
+          <input type="hidden" id="requestedItem" name="requestedItem" value="">
+          <button type="submit" class="submit-btn">Submit & Download</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
   
   <!-- Master Plan Expand Script -->
   <script>
@@ -826,7 +980,7 @@
           <ul class="footer-meta"><li><i class="fa-solid fa-phone"></i> <span class="footer-phone">+91 8527134491</span></li></ul>
         </div>
         <div class="footer-form-wrap">
-          <form id="footerForm" class="footer-form" novalidate>
+          <form id="footerForm" class="footer-form" action="form.php" method="POST" novalidate>
             <div class="ff-row">
               <div class="ff-group">
                 <label for="ffName">Name</label>
@@ -865,26 +1019,154 @@
   </footer>
 
   <script>
-    // Footer: dynamic year and simple form UX
-    document.getElementById('year').textContent = new Date().getFullYear();
-    const footerForm = document.getElementById('footerForm');
-    if (footerForm) {
-      footerForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const name = document.getElementById('ffName');
-        const phone = document.getElementById('ffPhone');
-        const email = document.getElementById('ffEmail');
-        let valid = true;
-        [name, phone, email].forEach(inp => {
-          inp.classList.remove('is-invalid');
-          if (!inp.checkValidity()) { inp.classList.add('is-invalid'); valid = false; }
+    // Form submission handler for both popup and footer forms
+    async function submitForm(form, isPopup = false, downloadUrl = null) {
+      const formData = new FormData(form);
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+      
+      try {
+        // Show loading state
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
+        
+        // For demo/testing - show form data in console
+        const formDataObj = {};
+        formData.forEach((value, key) => formDataObj[key] = value);
+        console.log('Form data being submitted:', formDataObj);
+        
+        // First try with XHR to get better error details
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'form.php', true);
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        
+        return new Promise((resolve, reject) => {
+          xhr.onload = function() {
+            if (xhr.status >= 200 && xhr.status < 300) {
+              // Success - show success message
+              alert('Thank you! We will contact you shortly.');
+              
+              // If it's the popup form and has a download URL, open it
+              if (isPopup && downloadUrl && downloadUrl !== '#') {
+                window.open(downloadUrl, '_blank');
+              }
+              
+              // Reset form and close modal if it's the popup
+              form.reset();
+              if (isPopup) {
+                const modal = document.getElementById('floorplanFormModal');
+                modal.classList.remove('active');
+                setTimeout(() => {
+                  modal.style.display = 'none';
+                  document.body.style.overflow = '';
+                }, 300);
+              }
+              resolve(xhr.response);
+            } else {
+              // Try to parse error message
+              let errorMessage = 'Something went wrong. Please try again.';
+              try {
+                const errorResponse = JSON.parse(xhr.responseText);
+                errorMessage = errorResponse.message || errorMessage;
+              } catch (e) {
+                errorMessage = xhr.statusText || errorMessage;
+              }
+              throw new Error(`Server responded with status ${xhr.status}: ${errorMessage}`);
+            }
+          };
+          
+          xhr.onerror = function() {
+            throw new Error('Network error. Please check your connection and try again.');
+          };
+          
+          xhr.send(new URLSearchParams(formData).toString());
         });
-        if (!valid) return;
-        // TODO: Integrate with backend/endpoint. For now, show a quick acknowledgment.
-        alert('Thank you! We\'ll contact you shortly.');
-        footerForm.reset();
-      });
+      } catch (error) {
+        console.error('Form submission error:', error);
+        alert(error.message || 'Failed to submit the form. Please try again.');
+      } finally {
+        // Reset button state
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+      }
     }
+
+    // Initialize floorplan form modal
+    document.addEventListener('DOMContentLoaded', function() {
+      const modal = document.getElementById('floorplanFormModal');
+      const closeBtn = document.querySelector('.close-modal');
+      const form = document.getElementById('floorplanForm');
+      let currentDownloadUrl = '#';
+      
+      // Open modal function
+      function openModal(itemName, downloadUrl) {
+        const requestedItemInput = document.getElementById('requestedItem');
+        if (requestedItemInput) {
+          requestedItemInput.value = itemName;
+        }
+        currentDownloadUrl = downloadUrl || '#';
+        document.body.style.overflow = 'hidden';
+        modal.style.display = 'flex';
+        setTimeout(() => {
+          modal.classList.add('active');
+        }, 10);
+      }
+      
+      // Close modal function
+      function closeModal() {
+        modal.classList.remove('active');
+        setTimeout(() => {
+          modal.style.display = 'none';
+          document.body.style.overflow = '';
+        }, 300);
+      }
+      
+      // Event listeners for close button and outside click
+      closeBtn.addEventListener('click', closeModal);
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+      
+      // Popup form submission
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          // Add the requested item to the form data
+          const requestedItem = document.getElementById('requestedItem');
+          const formData = new FormData(this);
+          if (requestedItem && requestedItem.value) {
+            formData.append('project', requestedItem.value);
+          }
+          submitForm(form, true, currentDownloadUrl);
+        });
+      }
+      
+      // Connect all buttons with data-toggle="floorplan-form" to the modal
+      document.querySelectorAll('[data-toggle="floorplan-form"]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const itemName = btn.getAttribute('data-item-name') || 'Item';
+          const downloadUrl = btn.getAttribute('href') || '#';
+          openModal(itemName, downloadUrl);
+        });
+      });
+      
+      // Initialize footer form
+      const footerForm = document.getElementById('footerForm');
+      if (footerForm) {
+        footerForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          submitForm(this, false);
+        });
+      }
+      
+      // Set current year in footer
+      const yearElement = document.getElementById('year');
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+      }
+    });
   </script>
 </body>
 </html>
